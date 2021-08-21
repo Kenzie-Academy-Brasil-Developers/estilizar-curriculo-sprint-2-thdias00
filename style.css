@@ -1,3 +1,35 @@
+body{
+	font-family: Lato, sans-serif;
+	background-color: #f3f3f3;
+}
+h1, h2{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #444444;
+}
+#mainArea{
+	padding: 20px 50px
+}
+#mainArea h1{
+	color: #cf8a05;
+	text-align: center; 
+}
+p{
+	color: #181818;
+}
+.subDetails{
+	font-style: italic;
+}
+ul{
+	list-style: none;
+}
+hr{
+	border: 1px solid #dedede;
+}
+.mainDetails{
+	border-bottom: 2px solid #cf8a05;
+	padding: 20px 50px 20px 50px;
+}
 .clear {
 	clear: both;
 }
@@ -7,13 +39,25 @@
 	float: left;
 	margin-right: 30px;
 }
+#headshot img{
+	border-radius: 60%;
+}
 
 #name {
 	float: left;
+	padding-left: 10px;
+}
+#name h1{
+	font-size: 30px;	
 }
 
 #contactDetails {
 	float: right;
+	color: #181818;
+}
+#contactDetails a{
+	text-decoration: none;
+	color:#181818
 }
 
 .sectionTitle {
@@ -24,4 +68,11 @@
 .sectionContent {
 	float: right;
 	width: 72.5%;
+}
+.keySkills{
+	display: flex;
+	flex-flow: row wrap;
+}
+.keySkills li{
+	width: 33%;
 }
