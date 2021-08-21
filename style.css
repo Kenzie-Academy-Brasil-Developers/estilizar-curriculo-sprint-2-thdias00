@@ -12,7 +12,6 @@ h1, h2{
 }
 #mainArea h1{
 	color: #cf8a05;
-	text-align: center; 
 }
 p{
 	color: #181818;
@@ -37,7 +36,6 @@ hr{
 #headshot {
 	width: 12.5%;
 	float: left;
-	margin-right: 30px;
 }
 #headshot img{
 	border-radius: 60%;
@@ -45,7 +43,6 @@ hr{
 
 #name {
 	float: left;
-	padding-left: 10px;
 }
 #name h1{
 	font-size: 30px;	
